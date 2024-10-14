@@ -1,12 +1,12 @@
 // computes a factorial of a given positive integer (양수에 대해서 팩토리얼 계산)
 // version: 1 -> 2 -> 3
 function factorial(n) {     // 5! = 5 * 4 * 3 * 2 * 1 = 120
-
+/*
     // n이 음수인 경우
     if( n < 0 ) {
         throw new Error('n must be a positive integer');
     }
-
+*/
 
     // n이 0인 경우
     if( n === 0 ) {
